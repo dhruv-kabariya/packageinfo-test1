@@ -1,0 +1,17 @@
+Name         : postgresql
+Version      : 10.15
+Release      : 1.module_el8.3.0+619+dbc95fbc
+Architecture : x86_64
+Size         : 1.5 M
+Source       : postgresql-10.15-1.module_el8.3.0+619+dbc95fbc.src.rpm
+Repository   : appstream
+Summary      : PostgreSQL client programs
+URL          : http://www.postgresql.org/
+License      : PostgreSQL
+Description  : PostgreSQL is an advanced Object-Relational database management system (DBMS).
+             : The base postgresql package contains the client programs that you'll need to
+             : access a PostgreSQL DBMS server, as well as HTML documentation for the whole
+             : system.  These client programs can be located on the same machine as the
+             : PostgreSQL server, or on a remote machine that accesses a PostgreSQL server
+             : over a network connection.  The PostgreSQL server can be found in the
+             : postgresql-server sub-package.

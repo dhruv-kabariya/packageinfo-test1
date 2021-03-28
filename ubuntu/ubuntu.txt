@@ -1,0 +1,16 @@
+Package: postgresql
+Version: 12+214ubuntu0.1
+Priority: optional
+Section: database
+Source: postgresql-common (214ubuntu0.1)
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 67.6 kB
+Depends: postgresql-12
+Suggests: postgresql-doc
+Task: postgresql-server
+Download-Size: 3924 B
+APT-Sources: http://archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages
+Description: object-relational SQL database (supported version)

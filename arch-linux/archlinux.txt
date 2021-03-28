@@ -1,0 +1,26 @@
+Repository      : extra
+Name            : postgresql
+Version         : 13.2-1
+Description     : Sophisticated object-relational DBMS
+Architecture    : x86_64
+URL             : https://www.postgresql.org/
+Licenses        : custom:PostgreSQL
+Groups          : None
+Provides        : None
+Depends On      : postgresql-libs>=13.2  krb5  libxml2  readline>=6.0  openssl>=1.0.0  pam  icu  systemd-libs  libldap  llvm-libs  libxslt
+Optional Deps   : python2: for PL/Python 2 support
+                  python: for PL/Python 3 support
+                  perl: for PL/Perl support
+                  tcl: for PL/Tcl support
+                  postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+Required By     : glom  postgis  postgresql-ip4r  python-testing.postgresql  timescaledb
+Optional For    : akonadi  filebin  findomain  flyspray  gdal  gitea  gitlab  hedgedoc  kdb  kea  mattermost  nextcloud  postfixadmin  quassel-core  quassel-monolithic  redmine  tt-rss
+Conflicts With  : None
+Replaces        : None
+Download Size   : 17.02 MiB
+Installed Size  : 53.00 MiB
+Packager        : Levente Polyak <anthraxx@archlinux.org>
+Build Date      : Sat 13 Feb 2021 06:47:53 PM UTC
+MD5 Sum         : be2f0c1f25e82b93b73a9dbf6b410662
+SHA-256 Sum     : e9363cbd1971b69d229df215261a0315c090031222750cb29e08d7038052c9b1
+Signatures      : FC1B547C8D8172C8

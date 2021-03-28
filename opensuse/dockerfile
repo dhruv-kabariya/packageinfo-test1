@@ -1,0 +1,8 @@
+FROM opensuse/leap
+RUN zypper patch 
+RUN zypper --non-interactive install python3 
+ADD sample.py /home/sample.py
+CMD ["/home/sample.py"]
+ENTRYPOINT ["python3"]
+
+

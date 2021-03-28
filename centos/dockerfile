@@ -1,0 +1,7 @@
+FROM centos
+RUN yum install -y python3
+ADD sample.py /home/sample.py
+CMD ["/home/sample.py"]
+ENTRYPOINT ["python3"]
+
+

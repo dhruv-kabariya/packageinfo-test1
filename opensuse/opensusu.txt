@@ -1,0 +1,21 @@
+Repository     : Main Update Repository
+Name           : postgresql
+Version        : 13-lp152.3.6.1
+Arch           : noarch
+Vendor         : openSUSE
+Installed Size : 713 B
+Installed      : No
+Status         : not installed
+Source package : postgresql-13-lp152.3.6.1.src
+Summary        : Basic Clients and Utilities for PostgreSQL
+Description    :
+    PostgreSQL is an advanced object-relational database management system
+    that supports an extended subset of the SQL standard, including
+    transactions, foreign keys, subqueries, triggers, and user-defined
+    types and functions.
+
+    This package contains the basic utility and client programs necessary
+    to maintain and work with local or remote PostgreSQL databases as well
+    as manual pages for the SQL commands that PostgreSQL supports. Full
+    HTML documentation for PostgreSQL can be found in the postgresql-docs
+    package.

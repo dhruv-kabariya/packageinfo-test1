@@ -1,0 +1,14 @@
+Package: postgresql
+Version: 11+200+deb10u4
+Priority: optional
+Section: database
+Source: postgresql-common (200+deb10u4)
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 66.6 kB
+Depends: postgresql-11
+Suggests: postgresql-doc
+Tag: devel::lang:sql, interface::daemon, network::server, network::service,
+ role::metapackage, role::program, suite::postgresql, works-with::db
+Download-Size: 61.1 kB
+APT-Sources: http://deb.debian.org/debian buster/main amd64 Packages
+Description: object-relational SQL database (supported version)
